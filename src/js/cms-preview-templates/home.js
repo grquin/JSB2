@@ -1,5 +1,4 @@
 import React from "react";
-
 import Jumbotron from "./components/jumbotron";
 
 export default class HomePreview extends React.Component {
@@ -23,9 +22,9 @@ export default class HomePreview extends React.Component {
           <p className="mb4 mw6">{entry.getIn(["data", "intro", "text"])}</p>
 
           <div className="flex-ns mhn2-ns mb3">
-            {(entry.getIn(["data", "projects"]) || []).map((product, i) => <div className="ph2-ns w-50-ns" key={i}>
-              <img src={getAsset(product.get("image"))} alt="" className="center db mb3" style={{width: "240px"}}/>
-              <p>{product.get("text")}</p>
+            {(entry.getIn(["data", "projects"]) || []).map((project, i) => <div className="ph2-ns w-50-ns" key={i}>
+              <img src={getAsset(project.get("image"))} alt="" className="center db mb3" style={{width: "240px"}}/>
+              <p>{project.get("text")}</p>
             </div>)}
           </div>
 
@@ -56,8 +55,6 @@ export default class HomePreview extends React.Component {
 
         </div>
       </div>
-
-
     </div>;
   }
 }
