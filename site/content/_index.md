@@ -1,6 +1,6 @@
 ---
-title: Sustainable Industrial Design
-subtitle: Through Environment Sustainability
+title: Carbon 360
+subtitle: Sustainable Industrial Design
 image: https://rmjm.com/wp-content/uploads/2021/11/Copy-of-Render-3-2-scaled.jpg
 blurb:
   heading: Why Kaldi?
@@ -14,7 +14,7 @@ intro:
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone.
-products:
+projects:
   - image: img/illustrations-coffee.svg
     text: We sell green and roasted coffee beans that are sourced directly from
       independent farmers and farm cooperatives. We’re proud to offer a variety

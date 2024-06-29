@@ -7,10 +7,10 @@ describe("empty spec", () => {
     cy.get("h1").contains("Great coffee with a conscience");
   });
 
-  it("navigates to the product page", () => {
-    cy.get('a[href="/products"]').eq(0).click();
-    cy.url().should("include", "/products");
-    cy.get("h1").contains(/Our Coffee/i);
+  it("navigates to the project page", () => {
+    cy.get('a[href="/"]').eq(0).click();
+    cy.url().should("include", "/projects");
+    cy.get("h1").contains(/Our Projects/i);
   });
 
   it("navigates to the values page", () => {

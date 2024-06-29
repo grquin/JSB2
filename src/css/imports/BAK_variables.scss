@@ -1,4 +1,3 @@
-/* src/css/imports/_variables.css */
 :root {
 	/* Colors */
 	--primary: rgb(224, 2, 113);
@@ -10,16 +9,18 @@
 	--grey-3: rgba(89, 87, 86, 1);
 	--grey-4: rgba(66, 64, 64, 1);
 	--black: rgba(43, 37, 35, 1);
-  
+
 	/* Typography */
 	--font-family: Nunito Sans, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
 	--line-height: 1.5;
+
 	--font-size: 18px;
 	--font-size-m: 20px;
 	--font-size-l: 22px;
+
 	--body-font-weight: 400;
 	--bold-font-weight: 700;
-  
+
 	/* Sizing */
 	--spacing-none: 0;
 	--spacing-extra-small: .25rem;
@@ -29,21 +30,8 @@
 	--spacing-extra-large: 4rem;
 	--spacing-extra-extra-large: 8rem;
 	--spacing-extra-extra-extra-large: 16rem;
-  
-	/* Miscellaneous */
+
+	/* Miscelaneous */
 	--border-radius: .25rem;
 	--hover-transition: all 150ms ease;
-  }
-  
-  body.dark-mode {
-	--primary: rgb(0, 168, 255);
-	--highlight: rgba(0, 51, 102, 1);
-	--white: rgba(255, 255, 255, 1);
-	--off-white: rgba(35, 35, 35, 1);
-	--grey-1: rgba(45, 45, 45, 1);
-	--grey-2: rgba(55, 55, 55, 1);
-	--grey-3: rgba(165, 165, 165, 1);
-	--grey-4: rgba(195, 195, 195, 1);
-	--black: rgba(245, 245, 245, 1);
-  }
-  
+}

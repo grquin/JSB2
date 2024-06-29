@@ -59,22 +59,7 @@
 /* Uncomment out the line below to help debug layout issues */
 /*@use './imports/_debug';*/
 
-/* Light/Dark Mode Toggle Styles */
-body {
-  transition: background-color 0.3s, color 0.3s;
-}
-
-body.light-mode {
-  background-color: #ffffff;
-  color: #000000;
-}
-
-body.dark-mode {
-  background-color: #000000;
-  color: #ffffff;
-}
-
-/* Sticky Navigation Bar */
+// Add this section at the end of main.scss or in the appropriate place
 [data-nav] {
   position: -webkit-sticky; /* For Safari */
   position: sticky;
